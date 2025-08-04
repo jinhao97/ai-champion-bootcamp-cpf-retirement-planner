@@ -12,4 +12,4 @@ An AI-powered interactive tool for understanding Singapore's CPF policies and pl
 🔗 [Live App](https://your-app-url.streamlit.app)
 
 ## Disclaimer
-This is an educational prototype for the AI Champions Bootcamp.
+This is an educational prototype for the AI Champions Bootcamp :)
