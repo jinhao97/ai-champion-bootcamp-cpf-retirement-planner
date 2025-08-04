@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-openai
+langchain-community
+faiss-cpu
+sentence-transformers
+pandas
+plotly
+langchainhub
+beautifulsoup4
+lxml
