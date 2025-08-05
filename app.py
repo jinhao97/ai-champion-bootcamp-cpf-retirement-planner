@@ -18,9 +18,9 @@ from datetime import datetime
 # --- Constants ---
 # Using placeholders for 2025 as per instructions.
 CPF_RETIREMENT_SUMS_2025 = {
-    "BRS": 102900,
-    "FRS": 205800,
-    "ERS": 308700,
+    "BRS": 106500,
+    "FRS": 213000,
+    "ERS": 426000,
 }
 
 # CPF interest rates (floor rates)
@@ -38,12 +38,12 @@ EXTRA_INTEREST_TIERS = {
 }
 
 DATA_SOURCES = [
-    "https://www.cpf.gov.sg/member/faq/growing-your-savings/retirement-sum-scheme/what-is-the-basic-full-and-enhanced-retirement-sum",
-    "https://www.cpf.gov.sg/member/faq/growing-your-savings/cpf-interest-rates/how-are-cpf-interest-rates-determined",
-    "https://growbeansprout.com/cpf-interest-rates",
-    "https://www.cpf.gov.sg/member/faq/retirement-income/cpf-withdrawals-from-55/how-much-cpf-savings-can-i-withdraw-from-age-55",
-    "https://www.mom.gov.sg/employment-practices/cpf-and-other-statutory-matters/central-provident-fund",
-    "https://www.gov.sg/article/understanding-cpf"
+    "https://www.cpf.gov.sg/service/article/what-are-the-basic-retirement-sum-full-retirement-sum-and-enhanced-retirement-sum-applicable-to-me",  # Retirement sums (BRS, FRS, ERS)
+    "https://www.cpf.gov.sg/service/article/how-are-cpf-interest-rates-determined",  # How CPF interest rates are determined
+    "https://www.cpf.gov.sg/member/growing-your-savings/earning-higher-returns/earning-attractive-interest",  # CPF interest rates explanation and earning higher returns
+    "https://www.cpf.gov.sg/service/article/how-much-cpf-savings-can-i-withdraw-from-age-55-to-64",  # CPF withdrawals from age 55
+    "https://www.mom.gov.sg/employment-practices/central-provident-fund",  # MOM CPF overview
+    "https://www.cpf.gov.sg/member/cpf-overview"  # General CPF understanding (from cpf.gov.sg, as gov.sg article may be outdated)
 ]
 
 # --- RAG and Agent Setup ---
